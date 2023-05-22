@@ -1,0 +1,21 @@
+img {
+  border-radius: 50%;
+}
+
+
+body {
+background-color:#DAF7A6;
+}
+
+#clock {
+font-size: 175px;
+width: 900px;
+margin: 200px;
+text-align: center;
+border: 2px solid black;
+border-align:center;
+border-radius: 20px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}

@@ -1,0 +1,136 @@
+<html>
+<head>
+<link href="assest/css/style.css" rel="stylesheet" > 
+<title>MULTIMEDIA</title>
+</head>
+<body>
+<br><br>
+<!...INSERTING AUDIO...>
+<hr>
+<center> <font size="4"> <b> <i> AUDIO INSERTING </center> </b> </i> </font>
+<hr>
+
+<center>
+<b>Billie Bossa Nova X West Coast</b>
+<br><br>
+<audio controls autoplay>
+<source src ="assest/audio/Billie Bossa Nova X West Coast.mp3" type="audio/mp3"> 
+</audio>
+<br><br>
+
+<b>im yours - isabel larosa (electric guitar)Billie Bossa Nova X West Coast</b>
+<br><br>
+<audio controls autoplay>
+<source src ="assest/audio/im yours - isabel larosa (electric guitar)-.mp3" type="audio/mp3"> 
+</audio>
+
+<br><br>
+<b>Eàj - traveler</b>
+<br><br>
+<audio controls autoplay>
+<source src ="assest/audio/Eàj - traveler.mp3" type="audio/mp3"> 
+</audio>
+
+<br><br>
+<b>Eàj - wallflower</b>
+<br><br>
+<audio controls autoplay>
+<source src ="assest/audio/Eàj - wallflower.mp3" type="audio/mp3"> 
+</audio>
+
+<br><br>
+<b>Eaj-pacman</b>
+<br><br>
+<audio controls autoplay>
+<source src ="assest/audio/Eaj-jae-day6-pacman.mp3" type="audio/mp3"> 
+</audio>
+
+<br><br>
+
+<!...EMBEDDING YOUTUBE LINK...>
+<hr>
+<center> <font size="4"> <b> <i> YOUTUBE VIDEOS </center> </b> </i> </font>
+<hr>
+
+<center>
+<font size="15px"><marquee width="700px" height="80px">IVE 아이브 'Kitsch' MV</marquee></font>
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pG6iaOMV46I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br><br>
+<font size="15px"><marquee width="700px" height="80px">JISOO - ‘꽃(FLOWER)’ M/V</marquee></font>
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YudHcBIxlYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br><br>
+</center>
+<br><br>
+<!...INSERTING VIDEO...>
+<hr>
+<center> <font size="4"> <b> <i> VIDEO INSERTING </center> </b> </i> </font>
+<hr>
+<br>
+<center>
+<video controls width="500px" height="400px" autoplay muted loop>
+<source src ="assest\video\JASMINE'S WALL.mp4" type="video/mp4"> 
+</video>
+<br><br>
+
+<video controls width="500px">
+<source src ="assest\video\cat.mp4" type="video/mp4"> 
+</video>
+</center>
+<br><br>
+
+<div id="clock">8:10:45</div>
+<script src="clock2.js"></script>
+
+
+<script>
+setInterval(showTime, 1000);
+function showTime() {
+	let time = new Date();
+	let hour = time.getHours();
+	let min = time.getMinutes();
+	let sec = time.getSeconds();
+	am_pm = "AM";
+
+	if (hour > 12) {
+		hour -= 12;
+		am_pm = "PM";
+	}
+	if (hour == 0) {
+		hr = 12;
+		am_pm = "AM";
+	}
+
+	hour = hour < 10 ? "0" + hour : hour;
+	min = min < 10 ? "0" + min : min;
+	sec = sec < 10 ? "0" + sec : sec;
+
+	let currentTime = hour + ":"
+			+ min + ":" + sec + am_pm;
+
+	document.getElementById("clock")
+			.innerHTML = currentTime;
+}
+showTime();
+
+</script>
+
+<!...EMBENDDING PDF FILE...>
+<hr>
+<center> <font size="4"> <b> <i> IMPIANA  MAGAZINE </center> </b> </i> </font>
+<hr>
+<center>
+<iframe src="assest/PDF file/IMPIANA  MAGAZINE.pdf" width="100%" height="1000px"
+</center>
+</iframe>
+<br><br>
+
+<hr>
+<marquee scrollamount="12"> <font size="9"> <font color="#F5B041 "> THANK YOU! </font>
+</marquee>
+<hr>
+
+</body> 
+</html>
